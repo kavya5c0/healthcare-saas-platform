@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+# TypeScript
+*.tsbuildinfo
+*.d.ts.map
+
+# Compiled JavaScript
+src/**/*.js
+!src/**/*.ts
+!src/**/*.tsx
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
