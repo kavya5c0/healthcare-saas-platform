@@ -130,5 +130,4 @@ export const router = createRouter({
       notificationsRoute,
     ]),
   ]),
-  base: '/',
 });

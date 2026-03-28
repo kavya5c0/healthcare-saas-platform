@@ -6,7 +6,7 @@ interface TabNavigationProps {
 }
 
 const TabNavigation: React.FC<TabNavigationProps> = ({ currentPage }) => {
-  const navigate = useNavigate;
+  const navigate = useNavigate();
   const location = useLocation();
 
   // Only show the most important navigation option
